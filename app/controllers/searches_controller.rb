@@ -4,7 +4,7 @@ class SearchesController < ApplicationController
     require 'open-uri'
 
     # url = 'https://api.nytimes.com/svc/topstories/v2/travel.json'
-     url = 'https://api.nytimes.com/svc/topstories/v2/science.json?api-key=yourkey'
+     url = 'https://api.nytimes.com/svc/topstories/v2/science.json?api-key=T8XwJbOsNplMIhKOCym4I5ECLLGX73ku'
 
   user_serialized = open(url).read
   user = JSON.parse(user_serialized)
