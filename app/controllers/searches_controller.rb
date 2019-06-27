@@ -29,7 +29,8 @@ class SearchesController < ApplicationController
 
 
 
-  user = JSON.parse(user_serialized)
+  articles = JSON.parse(user_serialized)
+
   @articles = user
 
 
