@@ -19,7 +19,7 @@ class SearchesController < ApplicationController
    # @articles = URL.parse(url.encode(url))
 
    #uri = URI('https://api.nytimes.com/svc/topstories/v2/travel.json?api-key=T8XwJbOsNplMIhKOCym4I5ECLLGX73ku&medium=#{search_term}')
-    url = 'https://api.nytimes.com/svc/topstories/v2/science.json?api-key=T8XwJbOsNplMIhKOCym4I5ECLLGX73ku'
+    url = 'https://api.nytimes.com/svc/topstories/v2/science.json?api-key=[NEW_YORL_TIMES_PUBLISHABLE_KEY]'
 
 
 
