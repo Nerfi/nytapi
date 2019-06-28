@@ -17,14 +17,10 @@ class SearchesController < ApplicationController
    url = "https://api.nytimes.com/svc/topstories/v2/science.json?api-key=#{ENV['NEW_YORk_TIMES_PUBLISHABLE_KEY']}"
 
   articles = open(url).read
-  #user = JSON.parse(user_serialized)
+  articles = JSON.parse(articles)
    # @articles = URL.parse(url.encode(url))
 
    #uri = URI('https://api.nytimes.com/svc/topstories/v2/travel.json?api-key=T8XwJbOsNplMIhKOCym4I5ECLLGX73ku&medium=#{search_term}')
-
-
-
-
 
 
 
