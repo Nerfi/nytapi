@@ -14,7 +14,7 @@ class SearchesController < ApplicationController
 
   def show
 #puede que en la linea 17 tengamos que cambiar las dobles comillas por singles
-   url = "https://api.nytimes.com/svc/topstories/v2/science.json?api-key=#{ENV['NEW_YORk_TIMES_PUBLISHABLE_KEY']}"
+   url = "https://api.nytimes.com/svc/topstories/v2/science.json?api-key=#{ENV['NEW_YORK_TIMES_PUBLISHABLE_KEY']}"
 
    puts url
   articles = open(url).read
